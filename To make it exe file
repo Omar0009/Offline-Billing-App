@@ -1,0 +1,7 @@
+#install pyinstaller
+code: /usr/local/bin/python3 -m pip install pyinstaller
+#Build the Executable
+code: cd "/Users/omar/Desktop/Billing App"
+#run PyInstaller with the --onefile flag
+/usr/local/bin/python3 -m PyInstaller --onefile "Billing App.py"
+
