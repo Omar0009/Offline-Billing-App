@@ -13,5 +13,5 @@ For windows:
 cd "C:\Users\Omar DP\Desktop\App" #Omar DP is user account which depends on your pc
 python billingapp.py
 
-To make the fine exe :
+To make the it exe :
 python -m PyInstaller --onefile --noconsole billingapp.py
