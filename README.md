@@ -6,3 +6,12 @@ Run this script first
 code:& "C:\Users\Omar DP\.local\bin\python3.15.exe" -m pip install matplotlib --break-system-packages
 or for Mac code:pip3 install reportlab num2words matplotlib pyinstaller
 /usr/local/bin/python3 "/Users/omar/Desktop/Billing App/Billing App.py"
+To run the app on Mac: 
+pyinstaller --onefile --noconsole billingapp.py
+
+For windows:
+cd "C:\Users\Omar DP\Desktop\App" #Omar DP is user account which depends on your pc
+python billingapp.py
+
+To make the fine exe :
+python -m PyInstaller --onefile --noconsole billingapp.py
